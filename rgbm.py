@@ -29,4 +29,6 @@ for x_n in np.array(res).T:
 plt.yscale('log')
 plt.title('reallocating geometric Brownian motion realizations - log scale')
 
-plt.show()
+plt.savefig("rgbm.png")
+plt.close()
+#plt.show()

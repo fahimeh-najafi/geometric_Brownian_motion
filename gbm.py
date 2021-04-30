@@ -34,4 +34,6 @@ for x_n in res:
 plt.yscale('log')
 plt.title('geometric Brownian motion realizations - log scale')
 
-plt.show()
+plt.savefig("gbm.png")
+plt.close()
+#plt.show()
